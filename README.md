@@ -38,7 +38,7 @@ App Screenshots
 
 ### 7. Update Profile [ This is dynamic ]
 ![img_16.png](img_16.png)
-When user tap the photo field then it takes photo from own device. 
+### When user tap the photo field then it takes photo from own device. 
 ![img_17.png](img_17.png)
 ![img_18.png](img_18.png)
 
