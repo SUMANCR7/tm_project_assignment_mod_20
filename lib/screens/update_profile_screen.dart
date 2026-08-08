@@ -182,7 +182,7 @@ class _UpdateProfileState extends State<UpdateProfile> {
                           ),
                         ),
                         child: const Text(
-                          'Photos',
+                          'Photo',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.w500,
