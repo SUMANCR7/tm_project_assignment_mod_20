@@ -36,7 +36,12 @@ App Screenshots
 ![img_13.png](img_13.png)
 ![img_15.png](img_15.png)
 
-### 7. Update Profile [ This is dynamic ]
+### 7. Delete Task
+![img_19.png](img_19.png)
+### Task A-5 has deleted
+![img_20.png](img_20.png)
+
+### 8. Update Profile [ This is dynamic ]
 ![img_16.png](img_16.png)
 ### When user tap the photo field then it takes photo from own device. 
 ![img_17.png](img_17.png)
