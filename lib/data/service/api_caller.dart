@@ -11,7 +11,9 @@ class ApiCaller {
 
   //-----[ API Call ]------//
 
-  //----------[ GET ]--------//
+
+  //----111------[ GET ]--------//
+
 static Future<ApiResponse> getRequest({required String URL}) async {
 
   try{
@@ -20,8 +22,9 @@ static Future<ApiResponse> getRequest({required String URL}) async {
     _logger.i(URL);
 
     Response response = await get(uri, headers: {
+
       //----[ Token ]----//
-      'token': AuthController.token ?? ' '
+      'token': AuthController.token ?? ''
     });
     
    _logger.i(response.body);
@@ -42,7 +45,7 @@ static Future<ApiResponse> getRequest({required String URL}) async {
   }
 }
 
-//-------[ POST ]-----//
+//--222-----[ POST ]-----//
 
   static Future<ApiResponse> postRequest({required String URL, Map<String, dynamic>? body}) async {
 
@@ -54,8 +57,9 @@ static Future<ApiResponse> getRequest({required String URL}) async {
       Response response = await post(uri, headers: {
         "Accept" : "application/json",
         "Content-type" : "application/json",
+
         //----[ Token ]----//
-        'token': AuthController.token ?? ' '
+        'token': AuthController.token ?? ''
       },
       body: body != null ? jsonEncode(body) : null,
       );

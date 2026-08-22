@@ -9,7 +9,8 @@ class AuthController {
   static String ? token;
   static UserModel ? userData;
 
-  //--------POST------//
+  //--------[ POST ]---JSON--ENCODE----//
+
   static Future saveUserData(UserModel model, String token) async {
     SharedPreferences sharedPreferences =await SharedPreferences.getInstance();
 
@@ -22,7 +23,7 @@ class AuthController {
     userData = model;
   }
 
-  //-------GET--------//
+  //-------[[ GET ]---JSON---DECODE------//
 
 static Future getUserData() async {
     SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
